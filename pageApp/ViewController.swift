@@ -39,7 +39,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource, UIPageVi
         self.view.addSubview(self.pageController!.view)
         
         let pageViewRect = self.view.bounds
-
+        self.pageController!.view.frame = pageViewRect
         self.pageController!.didMoveToParentViewController(self)
     }
     
