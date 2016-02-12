@@ -22,7 +22,7 @@ class ContentViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        
+        //
         
         webView.loadHTMLString(dataObject as! String, baseURL: NSURL(string:""))
     }
